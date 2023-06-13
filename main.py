@@ -119,7 +119,7 @@ while(1):
     else:
          response = html % messages
          messages = []
-         cl.send('HTTP/1.0 200 OK\r\nContent-type: text/html\r\n\r\nTaco')
+         cl.send('HTTP/1.0 200 OK\r\nContent-type: text/html\r\n\r\No data')
          cl.send(response)
          cl.close()
 
